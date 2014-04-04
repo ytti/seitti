@@ -10,8 +10,8 @@ pidfile      File.join DIR, 'run', MODE + '.pid'
 state_path   File.join DIR, 'run', MODE + '.state'
 bind         'unix:///' + File.join(DIR, 'run', MODE) + '.sock'
 
-stdout_redirect File.join(DIR, 'log', MODE) + '.log',
-                File.join(DIR, 'log', MODE) + '.err', true
+#stdout_redirect File.join(DIR, 'log', MODE) + '.log',
+#                File.join(DIR, 'log', MODE) + '.err', true
 
 ##daemonize    false
 ##quiet        false
