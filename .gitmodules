@@ -1,6 +1,3 @@
-[submodule "moi"]
-	path = moi
-	url = https://github.com/ytti/seitti-app
 [submodule "production"]
 	path = production
 	url = https://github.com/ytti/seitti-app
